@@ -15,7 +15,7 @@
   },
   "build": {
     "appId": "com.ggemo.cloudar",
-    "productName": "Cloudar弹幕",
+    "productName": "CloudarDanmaku",
     "extends": null,
     "win": {
       "icon": "./src/media/qriboom-256.ico",
