@@ -1,0 +1,29 @@
+{
+  "name": "cloudar-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "startElectron": "electron . --dev",
+    "startElectronWindow": "electron . --window --dev",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^17.1.2",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.ggemo.cloudar",
+    "productName": "Cloudar弹幕",
+    "extends": null,
+    "win": {
+      "icon": "./src/media/qriboom-256.ico",
+      "extraResources": "./resources/extraResources",
+      "asar": true
+    }
+  },
+  "keywords": [],
+  "author": "Qri",
+  "license": "MIT"
+}
