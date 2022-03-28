@@ -19,7 +19,10 @@
     "extends": null,
     "win": {
       "icon": "./src/media/qriboom-256.ico",
-      "extraResources": "./resources/extraResources",
+      "extraResources": {
+        "from": "./resources/extraResources",
+        "to": "extraResources"
+      },
       "asar": true
     }
   },
