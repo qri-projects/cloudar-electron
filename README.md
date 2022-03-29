@@ -3,6 +3,9 @@
 
 > 目前只打包了windows版本, mac版本有需求的话后续会再打包 (需要去借一个mac(噗))    
 
+## 安装
+前往本项目[Release页](https://github.com/qri-projects/cloudar-electron/releases), 下载最新版安装包或者免安装版  
+
 ## 配置
 下载/安装软件之后, 要前往配置文件更改房间号  
 配置文件在软件目录下的```resources/extraResources/config.json```文件  
