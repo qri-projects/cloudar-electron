@@ -11,7 +11,7 @@
 
 ## 配置
 下载/安装软件之后, 要前往配置文件更改房间号  
-配置文件在软件目录下的```resources/extraResources/config.json```文件
+配置文件在软件目录下的```resources/extraResources/config.json```文件  
 对于debian系用户，在确保安装了nano后，可以通过打开启动器上的“cloudar-electron”或者终端运行”cloudar-electron“进行配置  
 
 ## 效果预览
